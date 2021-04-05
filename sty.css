@@ -22,7 +22,7 @@
               flex-direction: row;
               
                justify-content:space-evenly;
-    
+            
              
                
     
@@ -33,7 +33,7 @@
            {
             background-color:#111;
             text-align: center;
-            border: solid 1rem darkcyan;
+            border: solid 0.2rem cadetblue;
             box-shadow:
         0 0 0.6rem 0.6rem #fff,  /* inner white */
         0 0 1.5rem 1.5rem palevioletred, /* middle magenta */
@@ -78,7 +78,7 @@
            .two{
             background-color:#111;
             text-align: center;
-            border: solid 1rem darkcyan;
+            border: solid 0.2rem cadetblue;
             box-shadow:
         0 0 0.6rem 0.6rem #fff,  /* inner white */
         0 0 1.5rem 1.5rem palevioletred, /* middle magenta */
@@ -98,7 +98,7 @@
            {
             background-color: #111;
             text-align: center;
-            border: solid 1rem darkcyan;
+            border: solid 0.2rem cadetblue;
             width: 22rem;
             height: 23rem;
             box-shadow:
