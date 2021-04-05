@@ -8,6 +8,11 @@
 </head>
 <body>
     <style>
+        * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
        body
        {
           
@@ -22,6 +27,7 @@
        
        .main
        {
+           padding-top: 12%;
            display: flex;
           flex-direction: row;
           
@@ -47,7 +53,9 @@
         width: 22rem;
         height: 23rem;
          padding: 2%;
-         
+         margin: auto;
+         transition: 0.5s all ease-in-out;
+        
        
        
        }
@@ -91,6 +99,8 @@
         width: 22rem;
         height: 23rem;
          padding: 2%;
+         margin: auto;
+         transition: 0.5s all ease-in-out;
          
        
        }
@@ -105,9 +115,11 @@
     0 0 1rem 1rem #fff,  /* inner white */
     0 0 2rem 2rem palevioletred, /* middle magenta */
     0 0 5rem 5rem #0ff; /* outer cyan */
-   
-        
+    transition: 0.5s all ease-in-out;
+    margin: auto;
     padding: 2%;
+    transition: 0.5s all ease-in-out;
+   
        }
        .one img
        {
@@ -116,6 +128,7 @@
       max-width: 60%;
       max-height: 60%;
       border-radius: 100%;
+      transition: 0.5s all ease-in-out;
        }
        .two img
        {
@@ -123,6 +136,7 @@
        max-width: 60%;
        max-height: 60%;
        border-radius: 100%;
+       transition: 0.5s all ease-in-out;
 
        }
        .three img
@@ -131,11 +145,12 @@
         max-width: 60%;
         max-height: 60%;
         border-radius: 100%;
+        transition: 0.5s all ease-in-out;
        }
        @media all and (max-width:900px)
        {
         body
-       {
+       { padding-top: 5%;
           padding: 18%;
 
           
@@ -159,6 +174,9 @@
        {
            max-width: 84%;
            padding: 2%;
+          
+           margin-bottom: 5%;
+         margin-top: 5%;
         
        }
        .one h1
@@ -169,6 +187,8 @@
        {
            max-width: 84%;
            padding: 2%;
+           margin-bottom: 5%;
+           margin-top: 5%;
         
        }
        .two h1
@@ -179,6 +199,8 @@
        {
            max-width: 84%;
            padding: 2%;
+           margin-bottom: 5%;
+            margin-top: 5%;
         
        }
        .three h1
@@ -187,7 +209,7 @@
        }
        }
     </style>
-   <br><br><br><br><br><br><br>
+   
     <div class="main" >
         
         <div class="two" style="text-align: center;">
