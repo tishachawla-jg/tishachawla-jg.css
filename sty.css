@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+           body
+           {
+              
+               color:dimgray;
+               background-color: black;
+              
+    
+              
+    
+            
+           } 
+           
+           .main
+           {
+               padding-top: 10%;
+               display: flex;
+              flex-direction: row;
+              
+               justify-content:space-evenly;
+    
+             
+               
+    
+              
+           }
+           
+           .one
+           {
+            background-color:#111;
+            text-align: center;
+            border: solid 1rem darkcyan;
+            box-shadow:
+        0 0 0.8rem 0.8rem #fff,  /* inner white */
+        0 0 1.5rem 1.5rem palevioletred, /* middle magenta */
+        0 0 2.5rem 2.5rem #0ff; /* outer cyan */
+           
+            width: 22rem;
+            height: 23rem;
+             padding: 2%;
+             margin: auto;
+             transition: 0.5s all ease-in-out;
+            
+           
+           
+           }
+           .one:hover
+           {
+            transform: scale(1.08);
+            justify-content: center;
+            background-color:black;
+            
+           }
+           .two:hover{
+            transform: scale(1.08);
+            background-color:black;
+           }
+           .three:hover
+           {
+            transform: scale(1.08);
+            background-color:black;
+           }
+           .one img:hover
+           {
+            transform: scale(1.07);
+           }
+           .two img:hover{
+            transform: scale(1.07);
+           }
+           .three img:hover
+           {
+            transform: scale(1.07);
+           }
+           .two{
+            background-color:#111;
+            text-align: center;
+            border: solid 1rem darkcyan;
+            box-shadow:
+        0 0 0.8rem 0.8rem #fff,  /* inner white */
+        0 0 1.5rem 1.5rem palevioletred, /* middle magenta */
+        0 0 2.5rem 2.5rem #0ff; /* outer cyan */
+            
+            
+          
+            width: 22rem;
+            height: 23rem;
+             padding: 2%;
+             margin: auto;
+             transition: 0.5s all ease-in-out;
+             
+           
+           }
+           .three
+           {
+            background-color: #111;
+            text-align: center;
+            border: solid 1rem darkcyan;
+            width: 22rem;
+            height: 23rem;
+            box-shadow:
+        0 0 0.8rem 0.8rem #fff,  /* inner white */
+        0 0 1.5rem 1.5rem palevioletred, /* middle magenta */
+        0 0 2.5rem 2.5rem #0ff; /* outer cyan */
+            
+        transition: 0.5s all ease-in-out;
+        margin: auto;
+        padding: 2%;
+        transition: 0.5s all ease-in-out;
+       
+           }
+           .one img
+           {
+    
+          text-align: center;
+          max-width: 60%;
+          max-height: 60%;
+          border-radius: 100%;
+          transition: 0.5s all ease-in-out;
+           }
+           .two img
+           {
+          text-align: center;
+           max-width: 60%;
+           max-height: 60%;
+           border-radius: 100%;
+           transition: 0.5s all ease-in-out;
+    
+           }
+           .three img
+           {
+            text-align: center;
+            max-width: 60%;
+            max-height: 60%;
+            border-radius: 100%;
+            transition: 0.5s all ease-in-out;
+           }
+           @media all and (max-width:1200px)
+           {
+            body
+           { 
+             margin-top: 0;
+              padding: 18%;
+    
+              
+    
+            
+           } 
+            .main
+           { 
+            margin-top: 0%;
+               display: flex;
+              flex-direction: column;
+              
+               justify-content:space-evenly;
+    
+             
+               
+    
+              
+           }
+           .one
+           {
+               max-width: 99%;
+               max-height: 99%;
+               padding: 2%;
+              
+               margin-bottom: 12%;
+               margin-top: 12%;
+            
+           }
+           .one h1
+           {
+            font-size: larger;
+           }
+           .two
+           {
+               max-width: 99%;
+               max-height: 99%;
+               padding: 2%;
+               margin-bottom: 12%;
+               margin-top: 1%;
+            
+           }
+           .two h1
+           {
+            font-size: larger;
+           }
+           .three
+           {
+            max-width: 99%;
+               max-height: 99%;
+               padding: 2%;
+               margin-bottom: 12%;
+               margin-top: 12%;
+            
+           }
+           .three h1
+           {
+            font-size: larger;
+           }
+           }
